@@ -17,4 +17,5 @@ object App1 extends App {
   var numBs = logData.filter(line => line.contains("b")).count()
   println(s"Lines with a: $numAs, Lines with b: $numBs")
   sc.stop()
+  //ni
 }
